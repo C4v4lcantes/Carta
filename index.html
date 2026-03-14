@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Carta do Leitor - Poema</title>
+<style>
+    /* Estilo geral da página para centralizar a carta */
+    body {
+        background-color: #333; /* Fundo escuro fora da carta */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        font-family: "Times New Roman", Times, serif; /* Fonte parecida com a da imagem */
+    }
+
+    /* Estilo do papel da carta */
+    .carta-container {
+        background-color: #f0eee9; /* Cor imitando papel antigo/texturizado */
+        background-image: radial-gradient(#e2dfd8 1px, transparent 1px);
+        background-size: 4px 4px; /* Cria um efeito bem suave de textura de papel */
+        width: 800px;
+        max-width: 90%;
+        padding: 60px 80px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        color: #111;
+        box-sizing: border-box;
+    }
+
+    /* Título principal */
+    .carta-container h1 {
+        text-align: center;
+        font-weight: normal;
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    /* Cabeçalho da carta (data e destinatário) */
+    .cabecalho {
+        margin-bottom: 30px;
+        font-size: 18px;
+    }
+
+    .cabecalho p {
+        margin: 5px 0;
+    }
+
+    .destinatario {
+        margin-top: 20px !important;
+    }
+
+    /* Corpo do texto da carta */
+    .corpo-texto {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify; /* Deixa o texto alinhado nas duas margens */
+        margin-bottom: 40px;
+    }
+
+    .corpo-texto p {
+        text-indent: 50px; /* Recuo do primeiro parágrafo, igual à imagem */
+        margin: 0;
+    }
+
+    /* Assinatura no canto inferior direito */
+    .assinatura {
+        text-align: right;
+        font-size: 18px;
+    }
+
+    .assinatura p {
+        margin: 5px 0;
+    }
+</style>
+</head>
+<body>
+
+    <div class="carta-container">
+        <h1>Carta do Leitor</h1>
+
+        <div class="cabecalho">
+            <p>Itajaí, 14 de março de 2026.</p>
+            <p class="destinatario">Uma Carta do Presente</p>
+        </div>
+
+        <div class="poema">
+            <pre>
+               Não serei o poeta de um mundo caduco.
+               Também não cantarei o mundo futuro.
+               Estou preso à vida e olho meus semelhantes.
+               Estão taciturnos mas nutrem esperanças
+               entre o tumulto e o medo.
+               O presente é tão grande, não nos afastemos.
+               Não nos afastemos muito, vamos de mãos dadas.
+
+               Não serei o cantor de uma mulher, de uma história,
+               não direi os suspiros ao anoitecer, a paisagem vista da janela,
+               não distribuirei entorpecentes ou cartas de suicida.
+               Não fugirei para as ilhas nem serei raptado por serafins.
+               O tempo é a minha matéria, o tempo presente, os homens presentes,
+               a vida presente. "Carlos Drummond de Andrade"
+            </pre>
+        </div>
+
+        <div class="assinatura">
+            <p>Atenciosamente,</p>
+            <p>Matheus Almeida Cavalcante da Silva</p>
+        </div>
+    </div>
+
+</body>
+</html>
